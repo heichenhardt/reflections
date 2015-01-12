@@ -1,3 +1,7 @@
 *** What happens when you initialize a repository? Why do you need to do it?
 
 It creates the hidden subfolder ".git" which keeps status information and history for the repository.
+
+*** How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+I think it is a good way to collect all the changes you want to commit in a separate area. Because staging is separated from the commit we can add multiple times to staging without creating multiple commits like that.

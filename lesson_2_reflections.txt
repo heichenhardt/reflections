@@ -13,3 +13,7 @@ It helps to see how a branch diverged from master past a certain point. It is th
 *** What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is a commit which has two parents the tip of the coins branch and the tip of the master branch. The resulting commit contains all the commits from master and coins.
+
+*** What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves you time when to merge is trivial. So whenever the situation is not ambiguis git is merging for us. Only if it is unknown what needs to be done than git is asking us for our input.

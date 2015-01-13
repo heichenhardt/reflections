@@ -5,3 +5,11 @@ It creates the hidden subfolder ".git" which keeps status information and histor
 *** How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 I think it is a good way to collect all the changes you want to commit in a separate area. Because staging is separated from the commit we can add multiple times to staging without creating multiple commits like that.
+
+*** How do the diagrams help you visualize the branch structure?
+
+It helps to see how a branch diverged from master past a certain point. It is therefore a lot clearer what needs to be done in terms of rebase / merge and what changes are missing in what branch.
+
+*** What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a commit which has two parents the tip of the coins branch and the tip of the master branch. The resulting commit contains all the commits from master and coins.

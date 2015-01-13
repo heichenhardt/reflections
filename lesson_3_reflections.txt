@@ -19,3 +19,7 @@ I think this is done so we can work offline. Also I think this makes the merging
 
 I think we would end up sending around lots and lots of emails. Also it would be really difficult to make sure everyone is working on the same code.
 One could use a shared drive maybe but it would be really difficult...
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I think if we work in a bigger team it might be benefitial to work on individual branches rather than on master. In that case we can decide much later what goes into what release and what we keep out of it. I think in general though it is better to stay on the main branch and integrate main often.
